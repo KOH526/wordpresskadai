@@ -6,21 +6,7 @@
  ?>
 
 <!-- header.php ここから -->
-<!DOCTYPE html>
 
-<head>
-  <title>samurai university</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="samurai university" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
-  <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
-</head>
-
-<body>
-  <div class="super_container">
   <?php get_header(); ?>
  
  <?php if(have_posts()) :?>
@@ -114,9 +100,7 @@
      <?php endif; ?>
         <!--  Sidebar -->
         <div class="col-lg-4" style="background-color: #2b7b8e33">
-          <div class="sidebar">
           <?php get_sidebar(); ?>
-          </div>
         </div>
       </div>
     </div>
